@@ -30,7 +30,7 @@
 
     const drawWizard = () => {
         const image = new Image();
-        image.src = './assets/wizard.png';
+        image.src = './wizard.png';
         
         image.onload = function () {
             /**
