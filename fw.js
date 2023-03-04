@@ -109,7 +109,7 @@
 
             this.coordinates = [];
             this.angle = Math.atan2(this.ty - positions.wandY, this.tx - positions.wandX);
-            this.speed = 20;
+            this.speed = 32;
             this.friction = .99;
             this.hue = random(0, 360);
 
@@ -175,7 +175,7 @@
 
             this.hue = random(0, 360);
             this.alpha = 1;
-            this.decay = random(.015, .03);
+            this.decay = random(.015, .04);
 
             while(particleLength--) {
                 this.coordinates.push([this.x, this.y]);
