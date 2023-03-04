@@ -5,7 +5,7 @@
     const width = window.innerWidth;
     const height = window.innerHeight;
 
-    const numberOfStars = 50;
+    const numberOfStars = 51;
     const random = (min, max) => Math.random() * (max - min) + min;
 
     canvas.width = width;
@@ -17,7 +17,7 @@
         background.addColorStop(1, '#6C2484');
     
         context.fillStyle = background;
-        context.fillRect(0, 0, width, height);
+        context.fillRect( 1, 1, width, height);
     };
 
     const drawForeground = () => {
