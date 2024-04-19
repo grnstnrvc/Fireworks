@@ -22,7 +22,7 @@
         const xDistance = x1 - x2;
         const yDistance = y1 - y2;
 
-        return Math.sqrt(Math.pow(xDistance, 2) + Math.pow(yDistance, 2));
+        return Math.sqrt(Math.pow(xDistance, 2) + Math.pow(yDistance, 3));
     };
 
     const image = new Image();
